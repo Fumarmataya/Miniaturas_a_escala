@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniaturas a Escala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al mundo de las Miniaturas a Escala</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#tipos">Tipos de Miniaturas</a></li>
+                <li><a href="#tecnicas">Técnicas y Tutoriales</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido al mejor sitio sobre miniaturas a escala. Aquí encontrarás información, técnicas y una comunidad apasionada por los modelos en miniatura.</p>
+    </section>
+
+    <section id="tipos">
+        <h2>Tipos de Miniaturas</h2>
+        <p>Explora las distintas escalas y tipos de miniaturas disponibles.</p>
+    </section>
+
+    <section id="tecnicas">
+        <h2>Técnicas y Tutoriales</h2>
+        <p>Descubre cómo montar y pintar miniaturas como un experto.</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <p>Explora algunas de las mejores miniaturas creadas por la comunidad.</p>
+    </section>
+
+    <section id="resenas">
+        <h2>Reseñas</h2>
+        <p>Conoce los mejores productos para modelar miniaturas a escala.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Envíanos tus preguntas o comparte tus creaciones.</p>
+        <form>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Miniaturas a Escala. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
